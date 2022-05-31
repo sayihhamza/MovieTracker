@@ -8,9 +8,9 @@
 > This project is a front-end React application that I created just for fun. You can use it to discover the latest movies and get more information on them. If you have a [TMDb](https://www.themoviedb.org/) account, you can login with that account in this app to rate movies, add them to your favorites list, and view your profile overview.
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<!-- This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). -->
 
-It uses:
+### Technologies:
 
 - **React**: as the main UI library
 - **Redux**: for state management (also using redux-saga and reselect)
@@ -26,16 +26,14 @@ It uses:
 **Clone the repo:**
 
 ```bash
-git clone https://github.com/hagopj13/movie-tracker.git
-cd movie-tracker
+git clone https://github.com/sayihhamza/MovieTracker.git
+cd MovieTracker
 ```
-
 **Install the dependencies:**
 
 ```bash
 npm install
 ```
-
 **Set the environment variables:**
 
 Create a `.env.development.local` file which includes all your secret environment variables. (Also `.env.production.local` for production builds and `.env.test.local` for testing).
